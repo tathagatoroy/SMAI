@@ -1,0 +1,71 @@
+Feature Representation 
+
+KNN
+Voronoi Tesselation
+Ignore lines when both side is same
+Bounds on Error rate
+KNN adjusts for outlier points
+Tie : Vote,Weighted
+
+Nearest mean classifier
+Simplicity
+Explainaibility
+Robust
+Continous Learn
+Gurantee error rate
+
+
+Linear decision boundaries
+
+y = f(x) = w0 + w1x1 + w2x2
+learning w0,w1,w2 such that y=f(x) = 0
+
+
+f(x) = w1x + w0
+
+
+Proof that perception algo coverges
+
+There exist k such that k*final_vector that distance of k*final_vector to current vector monotically decrease
+
+
+Relaxation 
+Square the loss function
+Normalize and add margin
+
+Regression
+Linear combination of basis function
+
+
+MSE
+wx = b for some b
+
+X(n,d)w(d,1) = b(n,1)
+
+J(w) = (b - Xw)^2
+Del(J) = 2(Xw-b)x
+
+Del(J) = 0
+2X'(Xw-b) = 0
+X'Xw = X'b
+Inv(X'X)(X'X)w = X'b => w = Inv(X'X)X'b
+
+Inv(X) = Inv(X'X)X'
+
+Ho Kashyap
+Compute w and b simultaenously
+
+J(w,b) = ||Xw -b||^2
+
+DJ/Dw = 2X'(Xw-b)
+DJ/Wb = -2(Xw-b)
+
+
+One vs one | one vs rest
+Both have ties
+
+DDAC Vs Hierarchial
+
+Forward vs Backward
+
+
